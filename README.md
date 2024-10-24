@@ -1,31 +1,36 @@
-# Sausage API
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## usage
+## Getting Started
 
-This is a next.js typescript based web API. You can deploy it on [vercel.com](https://vercel.com).
+First, run the development server:
 
-## routes
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-`/api/random`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-returns a random sausage
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-`/api/all`
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-returns all stored sausages
+## Learn More
 
-`/api/search/:term`
+To learn more about Next.js, take a look at the following resources:
 
-search for a specific sausage where ":term" is your search term. E.g. /api/search/fleisch returns all sausage includung the word "fleisch" like "Fleischkäse", "Gebackener Fleischkäse", "Grober Fleischkäse", "Kalbfleischkäse", etc.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## contribution
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-I'm sorry but the REST API is only available in german language :). If you want to make a translation, feel free to contact me.
+## Deploy on Vercel
 
-## issues
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-please post any issues on github
-
-## credits
-
-Sausage icon made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
