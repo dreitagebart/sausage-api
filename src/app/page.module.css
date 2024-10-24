@@ -1,0 +1,29 @@
+.container {
+	background-color: var(--mantine-color-gray-2);
+  min-height: 100vh;
+}
+
+.hero {
+	min-height: 100vh;
+}
+
+.sausageImage {
+	width: 300px;
+  height: auto
+}
+
+.heroTitle {
+	font-size: 72px;
+	font-family: var(--mantine-font-family-headings);
+}
+
+.title {
+	font-family: var(--mantine-font-family-headings);
+	display: inline-block;
+	font-size: 36px;
+	color: var(--mantine-color-dark-6);
+	padding-bottom: 0;
+	line-height: 1;
+	border-bottom: 4px solid var(--mantine-color-dark-1);
+	margin-bottom: 12px;
+}

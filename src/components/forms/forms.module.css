@@ -1,0 +1,21 @@
+.subtitle {
+	display: block;
+	font-size: 32px;
+	color: var(--mantine-color-dark-4);
+	font-family: var(--mantine-font-family-headings);
+}
+
+.route {
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.httpMethod {
+	color: #ffffff;
+	background-color: var(--mantine-color-red-5);
+	padding: 4px;
+	border-radius: 4px;
+	font-weight: bold;
+  line-height: 1;
+}
